@@ -1,0 +1,41 @@
+{
+  "name": "yell",
+  "plural": "yells",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "location": {
+      "type": "geopoint",
+      "required": true
+    },
+    "myell": {
+      "type": "string",
+      "required": true,
+      "default": "i am booring"
+    },
+    "owner": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "likes": {
+      "type": [
+        "string"
+      ]
+    },
+    "belongedGroup": {
+      "type": "string",
+      "default": "world"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

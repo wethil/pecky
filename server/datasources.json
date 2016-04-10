@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "yellfiDB": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "yellfiDB",
+    "password": "yardirr",
+    "name": "yellfiDB",
+    "user": "wethil",
+    "connector": "mongodb"
+  }
+}

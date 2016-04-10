@@ -1,0 +1,37 @@
+{
+  "name": "comment",
+  "plural": "comments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "yell_id": {
+      "type": "string",
+      "required": true
+    },
+    "cyell": {
+      "type": "string",
+      "required": true,
+      "default": "i am booring"
+    },
+    "owner": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "likes": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

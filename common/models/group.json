@@ -1,0 +1,36 @@
+{
+  "name": "group",
+  "plural": "groups",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "groupName": {
+      "type": "string",
+      "required": true
+    },
+    "gcontent": {
+      "type": "string",
+      "required": true
+    },
+    "creationDate": {
+      "type": "date",
+      "required": true
+    },
+    "followers": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "location": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

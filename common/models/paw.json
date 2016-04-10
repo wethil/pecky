@@ -1,0 +1,58 @@
+{
+  "name": "paw",
+  "plural": "paws",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "p_users": {
+      "type": [
+        "string"
+      ]
+    },
+    "p_yells": {
+      "type": [
+        "string"
+      ]
+    },
+    "p_comments": {
+      "type": [
+        "string"
+      ]
+    },
+    "p_groups": {
+      "type": [
+        "string"
+      ]
+    },
+    "b_users": {
+      "type": [
+        "string"
+      ]
+    },
+    "b_yells": {
+      "type": [
+        "string"
+      ]
+    },
+    "b_comments": {
+      "type": [
+        "string"
+      ]
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

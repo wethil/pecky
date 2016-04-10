@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "yellfiDB"
+  },
+  "AccessToken": {
+    "dataSource": "yellfiDB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "yellfiDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "yellfiDB",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "yellfiDB",
+    "public": false
+  },
+  "yell": {
+    "dataSource": "yellfiDB",
+    "public": true
+  },
+  "comment": {
+    "dataSource": "yellfiDB",
+    "public": true
+  },
+  "group": {
+    "dataSource": "yellfiDB",
+    "public": true
+  },
+  "paw": {
+    "dataSource": "yellfiDB",
+    "public": true
+  }
+}
